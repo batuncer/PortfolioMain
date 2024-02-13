@@ -149,8 +149,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+
+ 
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -367,12 +367,17 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  transition: transform 0.3s ease;
+}
+.color-container:hover {
+  transform: scale(1.05);
 }
 
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: 100%;
+  box-shadow: 0 54px 58px rgba(0, 0, 0, 0.1);
 }
 
 .project-title {
@@ -391,7 +396,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
 }
 
 .contact-info-upper-container {
@@ -428,7 +433,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 16vh;
   margin: 0 1rem;
 }
 
