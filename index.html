@@ -314,7 +314,7 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="project-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -336,6 +336,12 @@
                 onclick="location.href='http://hotelmain.s3-website-us-west-2.amazonaws.com/'"
               >
                 Live Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="openModal('modal1')"
+              >
+                Technologies
               </button>
             </div>
           </div>
@@ -362,6 +368,12 @@
               >
                 Live Demo
               </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="openModal('modal2')"
+              >
+                Technologies
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -385,6 +397,12 @@
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="openModal('modal3')"
+              >
+                Technologies
               </button>
             </div>
           </div>
@@ -410,6 +428,160 @@
               >
                 Live Demo
               </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="openModal('modal4')"
+              >
+                Technologies
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/employee.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">E. Management</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/batuncer/EmployeeManagement-Backend-JAVA'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/batuncer/EmployeeManagment-Frontend'"
+              >
+                Live Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="openModal('modal5')"
+              >
+                Technologies
+              </button>
+            </div>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal1')">&times;</span>
+              <h3>Desciription</h3>
+              <p>
+                Hotel Booking A user-friendly platform enabling login, sing up,
+                room search,making reservations and as a manager to see all
+                bookings. Technologies include React, Node.js, PostgreSQL, and
+                JWT for secure authentication. Key features: user registration,
+                room filtering, reservations, and an admin panel for project
+                management. Successfully deployed on AWS for stability and
+                scalability.
+              </p>
+              <ul>
+                <li>REACT</li>
+                <li>NODE</li>
+                <li>POSGRESQL</li>
+                <li>MUI MATERIAL</li>
+                <li>JWT</li>
+                <li>EXPRESS</li>
+                <li>AWS</li>
+              </ul>
+            </div>
+          </div>
+          <div id="modal3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal3')">&times;</span>
+              <h3>Desciription</h3>
+              <p>
+                A blog platform where users can log in, sign up, create posts,
+                comment, and like other posts. Technologies include React with
+                TypeScript for the frontend, Java for the backend, JWT for
+                secure authentication, and PostgreSQL for the database.
+                Enhancing user engagement through features like post creation,
+                commenting, and liking.
+              </p>
+              <ul>
+                <li>JAVA</li>
+                <li>SPRINGBOOT</li>
+                <li>SPRING DATA JPA</li>
+                <li>REACT</li>
+                <li>POSGRESQL</li>
+                <li>MUI MATERIAL</li>
+                <li>JWT</li>
+                <li>MAVEN</li>
+              </ul>
+            </div>
+          </div>
+          <div id="modal5" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal5')">&times;</span>
+              <h3>Desciription</h3>
+              <p>
+                The Employee Management App is a comprehensive tool designed to
+                streamline the process of managing employee records within an
+                organization. This application offers functionalities for
+                adding, deleting, updating, and viewing employee details,
+                providing HR departments and managers with the necessary tools
+                to efficiently manage their workforce.
+              </p>
+              <ul>
+                <li>REACT</li>
+                <li>JAVA</li>
+                <li>POSGRESQL</li>
+                <li>MUI MATERIAL</li>
+                <li>SPRING BOOT</li>
+                <li>SPRING DATA JPA</li>
+              </ul>
+            </div>
+          </div>
+          <div id="modal4" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal4')">&times;</span>
+              <h3>Desciription</h3>
+              <p>
+                WeatherApp is a user-friendly weather application that provides
+                accurate and up-to-date weather information. With WeatherApp,
+                users can easily access current weather conditions, view
+                forecasts for future times, check the weather for their current
+                location, and search for weather information in any location
+                worldwide. The search feature allows users to simply enter the
+                name of the city or location they want to check the weather for,
+                and WeatherApp will provide the relevant weather data, including
+                temperature, humidity, wind speed, and weather conditions.
+              </p>
+              <ul>
+                <li>REACT</li>
+                <li>NODE</li>
+                <li>POSGRESQL</li>
+                <li>MUI MATERIAL</li>
+                <li>JWT</li>
+                <li>EXPRESS</li>
+                <li>AWS</li>
+              </ul>
+            </div>
+          </div>
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal2')">&times;</span>
+              <h3>Desciription</h3>
+              <p>
+                ClassPlanner is a platform where users can sign in with Slack,
+                and our system fetches information from their Slack profiles.
+                Users can register for classes, select their roles, and manage
+                their registrations. Technologies used: React, Express,
+                PostgreSQL, with security ensured through JWT. Simplifying class
+                registration and management for a seamless user experience.
+              </p>
+              <ul>
+                <li>REACT</li>
+                <li>NODE</li>
+                <li>POSGRESQL</li>
+                <li>MUI MATERIAL</li>
+                <li>JWT</li>
+                <li>EXPRESS</li>
+              </ul>
             </div>
           </div>
         </div>

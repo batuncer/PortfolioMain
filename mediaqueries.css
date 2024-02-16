@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+ @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -6,8 +6,8 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
+  #contact
+ {
     height: fit-content;
   }
 }
@@ -19,12 +19,10 @@
   #hamburger-nav {
     display: flex;
   }
-  #experience,
-  .experience-details-container {
+  #experience{
     margin-top: 2rem;
   }
-  #profile,
-  .section-container {
+  #profile {
     display: block;
   }
   .arrow {
@@ -37,16 +35,14 @@
   section {
     margin: 0 5%;
   }
-  .section__pic-container {
+  /* .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
-  .about-containers {
-    flex-wrap: wrap;
-  }
+  */
 }
-
+/* 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -100,4 +96,4 @@
   .text-container {
     text-align: justify;
   }
-}
+} */ 
