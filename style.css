@@ -66,6 +66,9 @@ a:hover {
   cursor: default;
 }
 
+#experience{
+  margin-top: 50px;
+}
 /* HAMBURGER MENU */
 
 #hamburger-nav {
@@ -310,6 +313,10 @@ section {
 .section-container {
   gap: 4rem;
  
+}
+
+#projects{
+  margin-top: 50px;
 }
 
 .project-containers {
